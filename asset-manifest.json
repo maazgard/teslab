@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teslab/static/css/main.90c3b65b.css",
-    "main.js": "/teslab/static/js/main.00185605.js",
+    "main.js": "/teslab/static/js/main.c266fa6c.js",
     "static/js/496.aa56fb79.chunk.js": "/teslab/static/js/496.aa56fb79.chunk.js",
     "static/media/drone.jpg": "/teslab/static/media/drone.3eeb549653f2f78203e0.jpg",
     "static/media/research5.png": "/teslab/static/media/research5.1be3bf5eacf75e7b49d6.png",
@@ -18,18 +18,18 @@
     "static/media/Damilola.jpg": "/teslab/static/media/Damilola.2765c3add9a4d359aa40.jpg",
     "static/media/Anne.JPG": "/teslab/static/media/Anne.367d05924f9e87dde1ce.JPG",
     "static/media/research3.jpg": "/teslab/static/media/research3.fd70f493738a74143d78.jpg",
-    "static/media/maaz-gardezi.jpg": "/teslab/static/media/maaz-gardezi.ebb3f5a5c9bd6c73be13.jpg",
     "static/media/earth.gif": "/teslab/static/media/earth.4d9a6138c68837ef8c5f.gif",
     "static/media/logo.png": "/teslab/static/media/logo.65f884f91a3989d63a64.png",
     "static/media/Megan.jpg": "/teslab/static/media/Megan.beb3cad44af7918b7bb6.jpg",
     "static/media/pablo.jpg": "/teslab/static/media/pablo.ade45aa6014679ee54b9.jpg",
+    "static/media/maaz.jpg": "/teslab/static/media/maaz.189c53bd5665683abce3.jpg",
     "index.html": "/teslab/index.html",
     "main.90c3b65b.css.map": "/teslab/static/css/main.90c3b65b.css.map",
-    "main.00185605.js.map": "/teslab/static/js/main.00185605.js.map",
+    "main.c266fa6c.js.map": "/teslab/static/js/main.c266fa6c.js.map",
     "496.aa56fb79.chunk.js.map": "/teslab/static/js/496.aa56fb79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90c3b65b.css",
-    "static/js/main.00185605.js"
+    "static/js/main.c266fa6c.js"
   ]
 }
