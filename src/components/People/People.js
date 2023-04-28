@@ -19,10 +19,23 @@ function People() {
               marginTop: "50px",
             }}
           >
-            <span style={{ color: "white" }}>Current Members</span>
+            <span style={{ color: "white" }}>Principal Investigator</span>
           </h1>
         </Row>
         <People1 />
+        <Row>
+          <h1
+            className="people-header"
+            style={{
+              fontSize: "2.6em",
+              textAlign: "center",
+              padding: "25px",
+              marginTop: "50px",
+            }}
+          >
+            <span style={{ color: "white" }}>Current Members</span>
+          </h1>
+        </Row>
         <People2 />
         <Row>
           <h1

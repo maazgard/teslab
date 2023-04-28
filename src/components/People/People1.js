@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { CgWebsite } from "react-icons/cg";
 import Button from "react-bootstrap/Button";
 
-import profilePhoto from "../../Assets/maaz-gardezi.jpg";
+import profilePhoto from "../../Assets/maaz.jpg";
 
 function People1() {
   return (
@@ -23,7 +23,7 @@ function People1() {
               <a
                 className="accent"
                 href="linkedin.com/in/maaz-gardezi-5838a914/"
-                style={{ fontSize: "2.6em" }}
+                style={{ fontSize: "1.8em" }}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -33,8 +33,9 @@ function People1() {
               (he/him)
             </h2>
             <p className="home-about-body">
-              Assistant Professor of Sociology at{" "}
-              <b className="bolditalicaccent">Virginia Tech</b>.
+              Assistant Professor of Sociology at
+            Virginia Tech.
+              <br />
               <br />
               <b className="bolditalicaccent">Maaz Gardezi</b> is an assistant
               professor of sociology at Virginia Tech. He studies two broad and
@@ -45,25 +46,27 @@ function People1() {
               in the U.S., Ecuador, and in South Asia. Maaz is originally from
               Lahore, Pakistan.
               <br />
+              <br />
               Before joining Virginia Tech, Maaz was an assistant professor of
-              sociology and rural studies with a secondary appointment in the{" "}
-              <b className="bolditalicaccent">
-                Department of Natural Resource Management
-              </b>{" "}
-              at <b className="bolditalicaccent">South Dakota State </b>
+              sociology and rural studies with a secondary appointment in the
+            
+              Department of Natural Resource Management
+              
+              at South Dakota State
               University. He has a Bachelors in economics from University of
               Bath (UK), a Masters in environmental policy from University of
               Michigan, Ann Arbor, and a PhD in Sociology and Sustainable
-              Agriculture from{" "}
-              <b className="bolditalicaccent">Iowa State University</b>. He has
+              Agriculture from
+           Iowa State University. He has
               experience working in different sectors, including the private
               sector (Porsche Cars Great Britain), non-profit (World Wildlife
               Fund- Washington D.C.), and as a consultant to various government
               bodies. At Virginia Tech, Maaz offers undergraduate and graduate
-              courses within the{" "}
-              <b className="bolditalicaccent">Department of Sociology</b> and
+              courses within the
+              Department of Sociology and
               the newly approved graduate certificate program in Science,
               Technology, and Engineering in Policy (STEP).
+              <br />
               <br />
               Email:{" "}
               <a
@@ -75,15 +78,6 @@ function People1() {
                 maaz@vt.edu
               </a>{" "}
             </p>
-            <Button
-              variant="primary"
-              href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2026431&HistoricalAwards=false"
-              target="_blank"
-              style={{ width: "100%", margin: "0 auto" }}
-            >
-              <CgWebsite /> &nbsp;
-              {"Link to my CV"}
-            </Button>
           </Col>
         </Row>
       </Container>

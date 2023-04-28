@@ -146,7 +146,7 @@ function People3() {
               </a>{" "}
             </h2>
             <p className="home-about-body" style={{ padding: "0px" }}>
-              Postdoctoral Researcher, Purdue University
+              Assistant Professor, Murray State University
             </p>
             <p className="home-about-body" style={{ padding: "0px" }}>
               Ayorinde graduated with a PhD in Sociology from South Dakota State
