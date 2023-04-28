@@ -1,3 +1,5 @@
+# Stop the runnning application
+1. Ctr + C on the terminal
 
 # Steps to setup the website
 1. git init<br />
