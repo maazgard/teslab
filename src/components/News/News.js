@@ -26,6 +26,22 @@ function News() {
               <Row>
                 <br />
                 <ul>
+                <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 7/30/2022
+                    - Ogunyiola, A., & Gardezi, M. (2022). Restoring sense out
+                    of disorder? Farmers’ changing social identities under big
+                    data and algorithms. Agriculture and Human Values, 1-14.{" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10460-022-10334-1&sa=D&sntz=1&usg=AOvVaw0R1EUyE9zuNCH62HiCNS-W"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
                   <li style={{ padding: "15px" }}>
                     <span style={{ color: "red" }}>NEW PAPER!!</span> 7/30/2022
                     - Ogunyiola, A., & Gardezi, M. (2022). Restoring sense out
