@@ -1,7 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Type from "./Type";
-import PhotoGallery from "./photoGallery";
+
+import vt from "../../Assets/vt.png";
+import nsf from "../../Assets/nsf.png";
+import nifa from "../../Assets/nifa.png";
+import usda from "../../Assets/usda.png";
+import chci from "../../Assets/chci.png";
 
 function Home() {
   return (
@@ -14,7 +19,7 @@ function Home() {
               fontSize: "2.6em",
               textAlign: "center",
               padding: "25px",
-              marginTop: "100px",
+              marginTop: "75px",
             }}
           >
             <span style={{ color: "white" }}>
@@ -34,8 +39,31 @@ function Home() {
               healthcare in the U.S., and in South Asia.
             </p>
           </div>
-          <div style={{ padding: "50px", margin: "auto", zIndex: 2 }}>
-            <PhotoGallery />
+        </Container>
+        <Container>
+          <h2 style={{ fontSize: "1em", textAlign: "center" }}>
+            <span className="accent" style={{ fontSize: "2em" }}>
+              Sponsors
+            </span>
+          </h2>
+          <div className="sponsor-logos">
+            <div className="sponsor-logo">
+              <img src={nifa} alt="Sponsor 1" />
+            </div>
+            <div className="sponsor-logo">
+              <img src={nsf} alt="Sponsor 2" />
+            </div>
+            <div className="sponsor-logo">
+              <img src={usda} alt="Sponsor 3" />
+            </div>
+          </div>
+          <div className="sponsor-logos">
+            <div className="sponsor-logo">
+              <img src={vt} alt="Sponsor 1" />
+            </div>
+            <div className="sponsor-logo">
+              <img src={chci} alt="Sponsor 1" />
+            </div>
           </div>
         </Container>
       </Container>

@@ -3,17 +3,19 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import sty from "../style.css";
 
 import { Link } from "react-router-dom";
 
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
   AiOutlineUsergroupAdd,
   AiOutlineMail,
 } from "react-icons/ai";
+
+import { GiArchiveResearch } from "react-icons/gi";
+
+import { BiPhotoAlbum } from "react-icons/bi";
 
 import { FaStar } from "react-icons/fa";
 
@@ -70,7 +72,7 @@ function NavBar() {
                 to="/teslab/research"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Research
+                <GiArchiveResearch style={{ marginBottom: "2px" }} /> Research
               </Nav.Link>
             </Nav.Item>
 
@@ -94,6 +96,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 News
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/teslab/gallery"
+                onClick={() => updateExpanded(false)}
+              >
+                <BiPhotoAlbum style={{ marginBottom: "2px" }} /> Gallery
               </Nav.Link>
             </Nav.Item>
 

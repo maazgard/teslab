@@ -390,6 +390,66 @@ button:focus {
   color: var(--imp-text-color-light) !important;
 }
 
+/* Small screens (phones, 576px and up) */
+@media (min-width: 576px) {
+  .sponsor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sponsor {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+  }
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .sponsor-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .sponsor {
+    flex-grow: 1;
+    max-width: 200px;
+    margin: 20px;
+  }
+}
+
+/* Large screens (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .sponsor-section {
+    max-width: 1200px;
+  }
+
+  .sponsor {
+    margin: 20px;
+  }
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.sponsor-logo {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 20px;
+}
+
+.sponsor-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */

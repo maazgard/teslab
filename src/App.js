@@ -8,6 +8,7 @@ import Opportunities from "./components/Opportunities/Opportunities";
 import Contact from "./components/Contact/Contact";
 import People from "./components/People/People";
 import News from "./components/News/News";
+import Gallery from "./components/Gallery/Gallery";
 import {
   BrowserRouter as Router,
   Route,
@@ -43,6 +44,7 @@ function App() {
           <Route path="/teslab/contact" element={<Contact />} />
           <Route path="/teslab/people" element={<People />} />
           <Route path="/teslab/news" element={<News />} />
+          <Route path="/teslab/gallery" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/teslab/" />} />
         </Routes>
         <Footer />

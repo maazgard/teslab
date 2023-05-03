@@ -8,7 +8,7 @@ function Opportunities() {
         fluid
         className="home-about-section"
         id="about"
-        style={{ height: "100vh" }}
+        style={{ height: "94vh" }}
       >
         <Row>
           <h1
