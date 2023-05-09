@@ -27,8 +27,51 @@ function News() {
                 <br />
                 <ul>
                 <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 7/30/2022
-                    - Ogunyiola, A., & Gardezi, M. (2022). Restoring sense out
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
+                    Prutzer, E., Gardezi, M., Emery, M., Rizzo, D…Zia, A. (Accept). Rethinking ‘responsibility’ in precision agriculture innovation: Lessons from an interdisciplinary research team. Journal of Responsible Innovation. Accepted April 8, 2023. {" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1080/23299460.2023.2202093"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
+                <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
+                    Adereti, D.M., Gardezi, M., Wang, T., McMaine, J. (Accept). 
+                    Understanding farmers’ engagement and barriers to machine learning-based intelligent agricultural decision support systems. Agronomy Journal.  Accepted: 13 April 2023 {" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1002/agj2.21358"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
+                <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
+                    Gardezi, M., Joshi, B., Rizzo, D. M., Ryan, M., Prutzer, E., Brugler, S., & Dadkhah, A. (Accept).
+                    Artificial Intelligence in Farming: Challenges and opportunities for building trust. Agronomy Journal. Accepted April 5, 2023. {" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1002/agj2.21353"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
+                  <li style={{ padding: "15px" }}>
+                    Ogunyiola, A., & Gardezi, M. (2022). Restoring sense out
                     of disorder? Farmers’ changing social identities under big
                     data and algorithms. Agriculture and Human Values, 1-14.{" "}
                     <a
@@ -43,24 +86,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 7/30/2022
-                    - Ogunyiola, A., & Gardezi, M. (2022). Restoring sense out
-                    of disorder? Farmers’ changing social identities under big
-                    data and algorithms. Agriculture and Human Values, 1-14.{" "}
-                    <a
-                      className="bolditalicaccent"
-                      href="https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10460-022-10334-1&sa=D&sntz=1&usg=AOvVaw0R1EUyE9zuNCH62HiCNS-W"
-                      style={{ position: "relative" }}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {" "}
-                      Link
-                    </a>{" "}
-                  </li>
-                  <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 6/7/2022 -
-                    In pursuit of responsible innovation for precision
+                    Gardezi, M., Adereti, D., Stock, R. & Ogunyiola, A. (2022). In pursuit of responsible innovation for precision
                     agriculture technologies. Journal of Responsible Innovation.{" "}
                     <a
                       className="bolditalicaccent"
@@ -73,8 +99,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW GRANT!!</span> 5/19/2022
-                    - Trustworthy by design: Using human-centered AI for
+                  Trustworthy by design: Using human-centered AI for
                     improving healthcare training effectiveness.{" "}
                     <a
                       className="bolditalicaccent"
@@ -87,7 +112,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    3/15/2022 - Prutzer, E. (2022). Mapping pedagogies: applying
+                    Prutzer, E. (2022). Mapping pedagogies: applying
                     cartographic practice to the public sphere. Learning, Media
                     and Technology, 47(1), 39-52.{" "}
                     <a
@@ -101,7 +126,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    3/13/2022 - Stock, R. and Gardezi, M. (2022). Arrays and
+                    Stock, R. and Gardezi, M. (2022). Arrays and
                     algorithms: Emerging regimes of dispossession at the
                     frontiers of agrarian technological governance, Earth System
                     Governance, Volume 12, 2022, 100137.{" "}
@@ -116,7 +141,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    1/19/2021 - Ogunyiola, A., Gardezi, M., and Vij, S. (2022).
+                    Ogunyiola, A., Gardezi, M., and Vij, S. (2022).
                     Smallholder farmers’ engagement with climate smart
                     agriculture in Africa: Role of local knowledge and
                     upscaling. Climate Policy.{" "}
@@ -131,9 +156,8 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    1/4/2021 - Paper "Prioritizing climate-smart agriculture: An
-                    organizational and temporal review" published in Wiley
-                    Interdisciplinary Reviews: Climate Change{" "}
+                  Gardezi, M., Michael, S., Stock, R., Vij, S., Ogunyiola, A., and Ishtiaque, A. (2021). Prioritizing climate-smart agriculture: An organizational and temporal review.
+                    Interdisciplinary Reviews: Climate Change, WCC755.{" "}
                     <a
                       className="bolditalicaccent"
                       href="https://www.google.com/url?q=https%3A%2F%2Fwires.onlinelibrary.wiley.com%2Fdoi%2Ffull%2F10.1002%2Fwcc.755&sa=D&sntz=1&usg=AOvVaw1CSKZiipqMu-TszRoA0WRv"
@@ -145,10 +169,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    12/3/2021 - Paper published in Earth System Governance that
-                    examines power and politics in climate change adaptation
-                    policy making in South Asia. Dr. Sumit Vij is the lead
-                    author.{" "}
+                  Vij, S., Biesbroek, R., Stock, R., Gardezi, M., Ishtiaque, A., Groot, A., Termeer, K. (2021). Power-sensitive design principles for climate change adaptation policy-making in South Asia. Earth System Governance, 9, 100-109.{" "}
                     <a
                       className="bolditalicaccent"
                       href="https://www.google.com/url?q=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS2589811621000136&sa=D&sntz=1&usg=AOvVaw2Yi6JtzOO9GnC2ryROlrWg"
@@ -160,9 +181,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    10/2/2021 - Paper published in Geoforum that examines the
-                    power of big data and surveillance capitalism under
-                    precision agriculture.{" "}
+                  Stock, R., and Gardezi, M. (2021). Make bloom and let wither: Biopolitics of precision agriculture at the dawn of surveillance capitalism. Geoforum, 122, 193-203. {" "}
                     <a
                       className="bolditalicaccent"
                       href="https://www.google.com/url?q=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS0016718521001135&sa=D&sntz=1&usg=AOvVaw050qPyufKscJX1sxZK6m-9"
@@ -175,9 +194,7 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    06/20/2021 - Paper published in Journal of Rural Studies
-                    that explores farmers' moralistic trust in new and emerging
-                    digital agriculture technologies.{" "}
+                   Gardezi, M., and Stock, R. (2021). Growing algorithmic governmentality: Interrogating the social construction of trust in precision agriculture. Journal of Rural Studies, 84, 1-11. {" "}
                     <a
                       className="bolditalicaccent"
                       href="https://www.google.com/url?q=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS0743016721000887&sa=D&sntz=1&usg=AOvVaw0h18l-irj53opb1NVhjjQd"
