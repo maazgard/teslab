@@ -8,7 +8,6 @@ function Opportunities() {
         fluid
         className="home-about-section"
         id="about"
-        style={{ height: "94vh" }}
       >
         <Row>
           <h1
@@ -24,6 +23,47 @@ function Opportunities() {
           </h1>
         </Row>
         <Container>
+<br/>
+          <h2 style={{ fontSize: "1em", textAlign: "center" }}>
+            <span className="accent" style={{ fontSize: "2em" }}>
+            PhD Graduate Research Assistantship Opportunity in Sociology at Virginia Tech
+            </span>
+          </h2>
+          <p className="home-about-body">
+            
+          
+
+          We are hiring for a new PhD position focused on the governance of big data and artificial intelligence in food and agriculture systems. The PhD student will work on a USDA-NIFA funded project on "Fostering Responsible Innovation and Governance of Big Data and Artificial Intelligence in Precision Agriculture". Research activities for the PhD position include:
+
+ 
+          <ul>
+              <li>Develop and apply computational methods to study social and ecological systems and the governance of big data and artificial intelligence in agriculture.</li>
+              <li>Collect, clean, and analyze data using a variety of techniques including serious games, social network analysis and/or agent-based modeling.</li>
+              <li>Conduct literature reviews to stay up to date on the latest research in computational methods, governance of big data and artificial intelligence, and social and ecological systems in food and agriculture.</li>
+              <li>Present research findings at conferences and in publications.</li>
+              <li>Assist in writing grant proposals and project reports.</li>
+            </ul>
+
+The PhD position is in the Department of Sociology at Virginia Tech. The successful candidate with join our team at Technology-Environment-Society (TES Lab). It is a four-year position beginning August 10, 2023, with a funding package that covers tuition and includes a competitive stipend.
+
+Requirements:
+
+<ul>
+              <li>Graduated (or close to graduating) with a Bachelors or Masters in Sociology or a related field.</li>
+              <li>Interest and ability to learn social network analysis, agent-based modeling, digital serious games, and social simulation approaches.</li>
+              <li>Experience with programming languages such as R or Python.</li>
+              <li>Strong quantitative and analytical skills.</li>
+              <li>Ability to work independently and as part of a team.</li>
+            </ul>   
+
+For additional information  about the project and the position, please contact Maaz Gardezi: maaz@vt.edu. This position starts on August 10, 2023. This is not a remote position.
+          </p>
+
+          <h2 style={{ fontSize: "1em", textAlign: "center" }}>
+            <span className="accent" style={{ fontSize: "2em" }}>
+            General Inquiries
+            </span>
+          </h2>
           <p className="home-about-body">
             I am always looking to recruit graduate student (MS or PhD) in
             Sociology at Virginia Tech to work with me on:
@@ -48,97 +88,7 @@ function Opportunities() {
             </a>{" "}
           </p>
         </Container>
-        {/* <Row>
-          <h1
-            className="people-header"
-            style={{
-              fontSize: "2.6em",
-              textAlign: "center",
-              padding: "25px",
-              marginTop: "50px",
-            }}
-          >
-            <span style={{ color: "white" }}>Ongoing Projects</span>
-          </h1>
-        </Row>
-        <Container>
-          <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
-            <Col className="about-card">
-              <Row>
-                --------------- Placeholder for projects list ------------
-                <b className="bolditalicaccent" style={{ fontSize: "1.2em" }}>
-                  Publications:
-                </b>
-                <br />
-                <ol>
-                  <li>
-                    Ogunyiola, A., Gardezi, M., and Vij, S. (2022). Smallholder
-                    farmers’ engagement with climate smart agriculture in
-                    Africa: Role of local knowledge and upscaling. Climate
-                    Policy.{" "}
-                    <a
-                      className="bolditalicaccent"
-                      href="https://doi.org/10.1080/14693062.2021.2023451"
-                      style={{ position: "relative" }}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {" "}
-                      https://doi.org/10.1080/14693062.2021.2023451
-                    </a>{" "}
-                  </li>
-                  <li>
-                    Gardezi, M., Michael, S., Stock, R., Vij, S., Ogunyiola, A.,
-                    and Ishtiaque, A. (2021). Prioritizing climate-smart
-                    agriculture: An organizational and temporal review. Wiley
-                    Interdisciplinary Reviews: Climate Change, WCC755.{" "}
-                    <a
-                      className="bolditalicaccent"
-                      href="https://doi.org/10.1002/wcc.755 "
-                      style={{ position: "relative" }}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {" "}
-                      https://doi.org/10.1002/wcc.755
-                    </a>{" "}
-                  </li>
-                  <li>
-                    Vij, S., Biesbroek, R., Stock, R., Gardezi, M., Ishtiaque,
-                    A., Groot, A., Termeer, K. Power-sensitive design
-                    principles’ for climate change adaptation policy-making in
-                    South Asia. Earth System Governance, 9, 100-109.{" "}
-                    <a
-                      className="bolditalicaccent"
-                      href="https://doi.org/10.1016/j.esg.2021.100109"
-                      style={{ position: "relative" }}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {" "}
-                      https://doi.org/10.1016/j.esg.2021.100109
-                    </a>{" "}
-                  </li>
-                </ol>
-              </Row>
 
-              <Row>
-                <b className="bolditalicaccent" style={{ fontSize: "1.2em" }}>
-                  Grants and Awards:
-                </b>
-                <br />
-                <ol>
-                  <li>
-                    +Policy Fellowship, Policy Destination Area, Virginia Tech.
-                    Project title: “Responsible innovation and governance of
-                    climate smart irrigation technologies in the Hindu Kush
-                    Himalayas” ($10,500).
-                  </li>
-                </ol>
-              </Row>
-            </Col>
-          </Row>
-        </Container> */}
       </Container>
     </section>
   );
