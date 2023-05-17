@@ -171,8 +171,19 @@ button:focus {
 }
 
 .logo {
-  /* height: em !important; */
-  width: 12em !important;
+  width: 12em;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 8em;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 6em;
+  }
 }
 
 .navbar-nav .nav-link {
@@ -538,8 +549,12 @@ button:focus {
 
 .about-card {
   color: rgb(81, 81, 81);
-  font-size: 1.3em !important;
-  text-align: justify !important;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.about-card ul {
+  padding-left: 1.5em;
 }
 
 .about-activity {
@@ -574,10 +589,42 @@ button:focus {
 }
 
 /* people  */
+
 .people-header {
   background-image: linear-gradient(
     to bottom left,
     var(--imp-text-color-dark),
     var(--imp-text-color-light)
   );
+  font-size: 2.6em;
+}
+
+@media (max-width: 768px) {
+  .people-header {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 576px) {
+  .people-header {
+    font-size: 1.6em;
+  }
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+a.accent {
+  font-size: 1.8em;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.1em;
+  }
+
+  a.accent {
+    font-size: 1.5em;
+  }
 }

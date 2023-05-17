@@ -10,7 +10,7 @@ function AboutCard() {
             Principal Areas of Research Focus
           </span>
         </h2>
-        <p className="about-card">
+        <div className="about-card">
           <ul>
             <li>Social implications of emerging agricultural technologies</li>
             <li>Climate change and sustainability</li>
@@ -18,7 +18,7 @@ function AboutCard() {
             <li>Computational social sciences</li>
             <li>Participatory design of emerging technologies</li>
           </ul>
-        </p>
+        </div>
       </Container>
     </section>
   );

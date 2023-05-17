@@ -9,7 +9,7 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 
-import SimpleMap from "./Map";
+import map from "../../Assets/contact_map.png";
 
 function Contact() {
   return (
@@ -19,16 +19,45 @@ function Contact() {
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "50px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>Contact US</span>
           </h1>
         </Row>
-        <SimpleMap />
+        <br />
+        <Row>
+          <Col>
+            <h1
+              style={{
+                fontSize: "1.8em",
+                textAlign: "center",
+                paddingTop: "25px",
+                paddingBottom: "25px",
+              }}
+            >
+              <span className="accent"> Location </span> : 518 McBryde Hall,
+              Virginia Tech, Blacksburg, VA, 24060
+            </h1>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center">
+          <Col md={8} className="text-center">
+            <a
+              href="https://rb.gy/qy0ip"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={map} alt="Location" style={{ maxWidth: "100%" }} />
+            </a>
+          </Col>
+        </Row>
 
         <Row style={{ marginTop: "50px" }}>
           <Col md={12} id="contact" className="home-about-social">
@@ -44,16 +73,6 @@ function Contact() {
                   <AiFillMail />
                 </a>
               </li>
-              {/* <li className="s-icons">
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li> */}
               <li className="s-icons">
                 <a
                   href="https://www.linkedin.com/in/maaz-gardezi-5838a914/"
@@ -84,16 +103,6 @@ function Contact() {
                   <FaGoogle />
                 </a>
               </li>
-              {/* <li className="s-icons">
-                <a
-                  href="https://www.instagram.com//"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li> */}
               <li className="s-icons">
                 <a
                   href="https://twitter.com/maazgardezi?lang=en"
@@ -114,4 +123,5 @@ function Contact() {
     </section>
   );
 }
+
 export default Contact;

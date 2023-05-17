@@ -11,15 +11,17 @@ import chci from "../../Assets/chci.png";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-about-section" id="home">
         <Row>
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "75px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>

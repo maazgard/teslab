@@ -15,10 +15,12 @@ function Research() {
         <h1
           className="people-header"
           style={{
-            fontSize: "2.6em",
             textAlign: "center",
-            padding: "25px",
-            marginTop: "50px",
+            paddingTop: "25px",
+            paddingBottom: "25px",
+            paddingLeft: "5%",
+            paddingRight: "5%",
+            marginTop: "5%",
           }}
         >
           <span style={{ color: "white" }}>Current Research Work</span>
@@ -45,17 +47,17 @@ function Research() {
           </Col>
         </Row>
       </Container>
+
       <Row>
         <h1
           className="people-header"
           style={{
-            fontSize: "2.6em",
             textAlign: "center",
             paddingTop: "25px",
             paddingBottom: "25px",
-            paddingLeft: "150px",
-            paddingRight: "150px",
-            marginTop: "50px",
+            paddingLeft: "5%",
+            paddingRight: "5%",
+            marginTop: "5%",
           }}
         >
           <span style={{ color: "white" }}>
@@ -94,7 +96,12 @@ function Research() {
             style={{ paddingTop: "30px", paddingBottom: "30px" }}
             className="about-img"
           >
-            <img src={research1} alt="about" className="img-fluid" style={{ border: "1px solid black" }} />
+            <img
+              src={research1}
+              alt="about"
+              className="img-fluid"
+              style={{ border: "1px solid black" }}
+            />
           </Col>
         </Row>
         {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
@@ -258,13 +265,12 @@ function Research() {
         <h1
           className="people-header"
           style={{
-            fontSize: "2.6em",
             textAlign: "center",
             paddingTop: "25px",
             paddingBottom: "25px",
-            paddingLeft: "150px",
-            paddingRight: "150px",
-            marginTop: "50px",
+            paddingLeft: "5%",
+            paddingRight: "5%",
+            marginTop: "5%",
           }}
         >
           <span style={{ color: "white" }}>
@@ -307,7 +313,6 @@ function Research() {
               style={{ border: "1px solid black" }}
             />
           </Col>
-
         </Row>
         {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
           <Col className="about-card">
@@ -394,13 +399,12 @@ function Research() {
         <h1
           className="people-header"
           style={{
-            fontSize: "2.6em",
             textAlign: "center",
             paddingTop: "25px",
             paddingBottom: "25px",
-            paddingLeft: "150px",
-            paddingRight: "150px",
-            marginTop: "50px",
+            paddingLeft: "5%",
+            paddingRight: "5%",
+            marginTop: "5%",
           }}
         >
           <span style={{ color: "white" }}>
@@ -439,7 +443,12 @@ function Research() {
             style={{ paddingTop: "30px", paddingBottom: "30px" }}
             className="about-img"
           >
-            <img src={research6} alt="about" className="img-fluid" style={{ border: "1px solid black" }}/>
+            <img
+              src={research6}
+              alt="about"
+              className="img-fluid"
+              style={{ border: "1px solid black" }}
+            />
           </Col>
         </Row>
         {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>

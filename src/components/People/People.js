@@ -13,10 +13,12 @@ function People() {
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "50px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>Principal Investigator</span>
@@ -27,10 +29,12 @@ function People() {
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "50px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>Current Members</span>
@@ -41,10 +45,12 @@ function People() {
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "50px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>Past Members</span>

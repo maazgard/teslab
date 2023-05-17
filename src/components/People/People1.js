@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { CgWebsite } from "react-icons/cg";
-import Button from "react-bootstrap/Button";
-
 import profilePhoto from "../../Assets/maaz.jpg";
 
 function People1() {
@@ -33,8 +30,7 @@ function People1() {
               (he/him)
             </h2>
             <p className="home-about-body">
-              Assistant Professor of Sociology at
-            Virginia Tech.
+              Assistant Professor of Sociology at Virginia Tech.
               <br />
               <br />
               <b className="bolditalicaccent">Maaz Gardezi</b> is an assistant
@@ -49,23 +45,18 @@ function People1() {
               <br />
               Before joining Virginia Tech, Maaz was an assistant professor of
               sociology and rural studies with a secondary appointment in the
-            
-              Department of Natural Resource Management
-              
-              at South Dakota State
+              Department of Natural Resource Management at South Dakota State
               University. He has a Bachelors in economics from University of
               Bath (UK), a Masters in environmental policy from University of
               Michigan, Ann Arbor, and a PhD in Sociology and Sustainable
-              Agriculture from
-           Iowa State University. He has
-              experience working in different sectors, including the private
-              sector (Porsche Cars Great Britain), non-profit (World Wildlife
-              Fund- Washington D.C.), and as a consultant to various government
-              bodies. At Virginia Tech, Maaz offers undergraduate and graduate
-              courses within the
-              Department of Sociology and
-              the newly approved graduate certificate program in Science,
-              Technology, and Engineering in Policy (STEP).
+              Agriculture from Iowa State University. He has experience working
+              in different sectors, including the private sector (Porsche Cars
+              Great Britain), non-profit (World Wildlife Fund- Washington D.C.),
+              and as a consultant to various government bodies. At Virginia
+              Tech, Maaz offers undergraduate and graduate courses within the
+              Department of Sociology and the newly approved graduate
+              certificate program in Science, Technology, and Engineering in
+              Policy (STEP).
               <br />
               <br />
               Email:{" "}

@@ -5,15 +5,25 @@ import PhotoGallery from "./photoGallery";
 function Gallery() {
   return (
     <section>
-      <Container fluid className="home-section" style={{ height: "94vh" }}>
+      <Container
+        fluid
+        className="home-about-section"
+        style={{
+          minHeight: "100vh",
+          height: "auto",
+          paddingBottom: "30px",
+        }}
+      >
         <Row>
           <h1
             className="people-header"
             style={{
-              fontSize: "2.6em",
               textAlign: "center",
-              padding: "25px",
-              marginTop: "100px",
+              paddingTop: "25px",
+              paddingBottom: "25px",
+              paddingLeft: "5%",
+              paddingRight: "5%",
+              marginTop: "5%",
             }}
           >
             <span style={{ color: "white" }}>Gallery</span>
