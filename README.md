@@ -7,7 +7,7 @@
 3. git add .<br />
 4. git commit -m "Message"<br />
 5. git push origin main<br />
-6. change the package.json file githubURL
+6. change the package.json file githubURL.
 
 # Steps to Start the application on local system: <br />
 1. npm install (only needed first time or when installing new dependencies)<br />
