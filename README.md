@@ -12,7 +12,7 @@
 # Steps to Start the application on local system: <br />
 1. npm install (only needed first time or when installing new dependencies)<br />
 2. npm start <br />
-runs on port number 3000
+runs on port number 3000.
 
 # Steps to Deploy the application on the github pages:<br />
 1. npm run build<br />
