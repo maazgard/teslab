@@ -28,13 +28,44 @@ function News() {
               <Row>
                 <br />
                 <ul>
+                <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 8/15/2023
+                    Prutzer, E., Patrick, A., Ishtiaque, A., Vij, S., Stock, R., Gardezi, M.
+                    (2023). Climate-smart irrigation and responsible innovation in South Asia: 
+                    A systematic mapping.{" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1007/s13280-023-01895-4"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
+                <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 8/15/2023
+                    Brugler, S., Clay, S., Gardezi, M., Dadkhah, A., Rizzo, D., Zia, A.
+                    (2023). Improving Decision Support Systems with Machine Learning:
+                    Identifying Barriers to Adoption. Agronomy Journal{" "}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1002/agj2.21432"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
                   <li style={{ padding: "15px" }}>
                     <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
                     Prutzer, E., Gardezi, M., Emery, M., Rizzo, D…Zia, A.
-                    (Accept). Rethinking ‘responsibility’ in precision
+                    (2023). Rethinking ‘responsibility’ in precision
                     agriculture innovation: Lessons from an interdisciplinary
-                    research team. Journal of Responsible Innovation. Accepted
-                    April 8, 2023.{" "}
+                    research team. Journal of Responsible Innovation.{" "}
                     <a
                       className="bolditalicaccent"
                       href="https://doi.org/10.1080/23299460.2023.2202093"
@@ -48,10 +79,10 @@ function News() {
                   </li>
                   <li style={{ padding: "15px" }}>
                     <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
-                    Adereti, D.M., Gardezi, M., Wang, T., McMaine, J. (Accept).
+                    Adereti, D.M., Gardezi, M., Wang, T., McMaine, J. (2023).
                     Understanding farmers’ engagement and barriers to machine
                     learning-based intelligent agricultural decision support
-                    systems. Agronomy Journal. Accepted: 13 April 2023{" "}
+                    systems. Agronomy Journal.{" "}
                     <a
                       className="bolditalicaccent"
                       href="https://doi.org/10.1002/agj2.21358"
@@ -66,9 +97,9 @@ function News() {
                   <li style={{ padding: "15px" }}>
                     <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
                     Gardezi, M., Joshi, B., Rizzo, D. M., Ryan, M., Prutzer, E.,
-                    Brugler, S., & Dadkhah, A. (Accept). Artificial Intelligence
+                    Brugler, S., & Dadkhah, A. (2023). Artificial Intelligence
                     in Farming: Challenges and opportunities for building trust.
-                    Agronomy Journal. Accepted April 5, 2023.{" "}
+                    Agronomy Journal.{" "}
                     <a
                       className="bolditalicaccent"
                       href="https://doi.org/10.1002/agj2.21353"
