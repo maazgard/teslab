@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import edwardPhoto from "../../Assets/Edward.png";
 import pablo from "../../Assets/pablo.jpg";
 import bhavna from "../../Assets/bhavna.jpg";
 import janMichalak from "../../Assets/JanMichalak.jpg";
+import jitenderPhoto from "../../Assets/Jitender.jpg";
 
 function People2() {
   return (
@@ -19,32 +19,25 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="*"
+                href="https://www.linkedin.com/in/jitender-rathore-2493b2169?trk=public_profile_samename_mini-profile_title"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
               >
                 {" "}
-                Edward Prutzer
+                Jitender Rathore
               </a>{" "}
               (he/him)
             </h2>
             <p className="home-about-body" style={{ padding: "0px" }}>
-              Postdoctoral Associate in Sociology at Virginia Tech
+              PhD Student in the School of Plant and Environmental Science at Virginia Tech
             </p>
             <p className="home-about-body" style={{ padding: "0px" }}>
-              Edward Prutzer earned his PhD in Communications and Media from the
-              Institute of Communications Research at the University of Illinois
-              at Urbana-Champaign. His research focuses on how publics and
-              researchers convene, deliberate, and collaborate on environmental
-              and disaster management projects, particularly via crowdsourcing
-              platforms and digital mapping technologies. His work on these
-              tools and associated practices has been published in various
-              edited collections and peer-reviewed journals, including Macrotask
-              Crowdsourcing: Engaging the Crowds to Address Complex Problems;
-              Co-Design: Collaborative Pedagogy in DH and Building Inclusive
-              Digital Ethics; Emotions, Technology, and Health; InVisible
-              Culture; and Media-N.
+              Jitneder's research focuses on remote sensing and GIS, with a specialization
+              in spatial agriculture. In 2021, he obtained his Master's degree in Geoinformatics
+              Science and Earth Observation from the University of Twente's ITC in the Netherlands.
+              Prior to that, he worked as a remote sensing and agriculture technician at 6th Grain.
+              Jitender earned his Bachelor's degree in Geography from the University of Delhi.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
