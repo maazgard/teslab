@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import edwardPhoto from "../../Assets/Edward.png";
 import damilola from "../../Assets/Damilola.jpg";
 import megan from "../../Assets/Megan.jpg";
 import anne from "../../Assets/Anne.JPG";
@@ -11,6 +12,48 @@ function People3() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+      <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+          >
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="*"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Edward Purtzer
+              </a>{" "}
+              (he/him)
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              Assistant Professor for Communication Studies at Germanna Community College
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            Edward Prutzer earned his PhD in Communications and Media from the
+              Institute of Communications Research at the University of Illinois
+              at Urbana-Champaign. His research focuses on how publics and
+              researchers convene, deliberate, and collaborate on environmental
+              and disaster management projects, particularly via crowdsourcing
+              platforms and digital mapping technologies. His work on these
+              tools and associated practices has been published in various
+              edited collections and peer-reviewed journals, including Macrotask
+              Crowdsourcing: Engaging the Crowds to Address Complex Problems;
+              Co-Design: Collaborative Pedagogy in DH and Building Inclusive
+              Digital Ethics; Emotions, Technology, and Health; InVisible
+              Culture; and Media-N.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img src={edwardPhoto} className="img-fluid team-pic" alt="edward pic" />
+          </Col>
+        </Row>
+        
         <Row>
           <Col
             md={8}
