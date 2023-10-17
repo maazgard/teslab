@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/teslab/static/css/main.bce43e7f.css",
-    "main.js": "/teslab/static/js/main.91517c72.js",
+    "main.js": "/teslab/static/js/main.cfd97a7e.js",
     "static/js/496.aa56fb79.chunk.js": "/teslab/static/js/496.aa56fb79.chunk.js",
     "static/media/contact_map.png": "/teslab/static/media/contact_map.4bc98f3586444caa67f5.png",
+    "static/media/Sheetal.png": "/teslab/static/media/Sheetal.a205227146213f410f21.png",
+    "static/media/Shreya.jpg": "/teslab/static/media/Shreya.9c96d50817ea5afc3b9d.jpg",
     "static/media/drone.jpg": "/teslab/static/media/drone.3eeb549653f2f78203e0.jpg",
     "static/media/research5.png": "/teslab/static/media/research5.1be3bf5eacf75e7b49d6.png",
     "static/media/research6.png": "/teslab/static/media/research6.be3dd0b9d8b921b2f267.png",
@@ -29,11 +31,11 @@
     "static/media/maaz.jpg": "/teslab/static/media/maaz.189c53bd5665683abce3.jpg",
     "index.html": "/teslab/index.html",
     "main.bce43e7f.css.map": "/teslab/static/css/main.bce43e7f.css.map",
-    "main.91517c72.js.map": "/teslab/static/js/main.91517c72.js.map",
+    "main.cfd97a7e.js.map": "/teslab/static/js/main.cfd97a7e.js.map",
     "496.aa56fb79.chunk.js.map": "/teslab/static/js/496.aa56fb79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bce43e7f.css",
-    "static/js/main.91517c72.js"
+    "static/js/main.cfd97a7e.js"
   ]
 }
