@@ -7,12 +7,58 @@ import megan from "../../Assets/Megan.jpg";
 import anne from "../../Assets/Anne.JPG";
 import ayorinde from "../../Assets/Ayorinde.jpg";
 import martin from "../../Assets/Martin.jpg";
+import janMichalak from "../../Assets/JanMichalak.jpg";
 
 function People3() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
       <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+          >
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="https://www.linkedin.com/in/janjakubmichalak/"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Jan Michalak
+              </a>{" "}
+              (he/him)
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              Undergraduate student in Computer Science at Virginia Tech
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              Jan Michalak (he/him) is a fourth-year undergraduate student at
+              Virginia Polytechnic and State University studying Computer
+              Science who is working as a website developer on the team. His
+              research interests include cryptography, cybersecurity, blockchain
+              applications, and human-computer interaction (HCI). Jan has
+              previously worked on a project where he and his team aimed to
+              enhance user privacy when operating on sensitive data stored on an
+              untrusted server. This project resulted in a publication in the
+              4th IEEE International Conference on Trust, Privacy, and
+              Applications (IEEE-TPS) 2022. He is set to graduate with his
+              Bachelor of Science degree in May of 2023 and is eager to continue
+              researching these topics in his graduate studies.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img
+              src={janMichalak}
+              className="img-fluid team-pic"
+              alt="Jan Michalak pic"
+            />
+          </Col>
+        </Row>
+         <Row>
           <Col
             md={8}
             className="home-about-description"

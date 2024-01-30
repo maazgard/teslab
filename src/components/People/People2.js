@@ -7,6 +7,7 @@ import janMichalak from "../../Assets/JanMichalak.jpg";
 import jitenderPhoto from "../../Assets/Jitender.png";
 import shreyaPhoto from "../../Assets/Shreya.jpg";
 import sheetalPhoto from "../../Assets/Sheetal.png";
+import samPhoto from "../../Assets/sam h.jpg";
 
 function People2() {
   return (
@@ -217,6 +218,41 @@ function People2() {
               src={shreyaPhoto}
               className="img-fluid team-pic"
               alt="shreya pic"
+            />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+          >
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="https://www.linkedin.com/in/sam-hartmann/"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Sam Hartmann 
+              </a>{" "}
+              (he/him)
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              Undergraduate student majoring in Computational Modeling and Data Analytics (CMDA) at Virginia Tech
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            My name is Sam Hartmann. I'm a senior majoring in CMDA (Computational and Modeling Data Analytics)  with a concentration in cryptography and cybersecurity and minoring in Math and Computer Science.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img
+              src={samPhoto}
+              className="img-fluid team-pic"
+              alt="Sam Hartmann pic"
             />
           </Col>
         </Row>
