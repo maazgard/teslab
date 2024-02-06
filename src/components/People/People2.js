@@ -6,6 +6,7 @@ import bhavna from "../../Assets/bhavna.jpg";
 import jitenderPhoto from "../../Assets/Jitender.png";
 import shreyaPhoto from "../../Assets/Shreya.jpg";
 import sheetalPhoto from "../../Assets/Sheetal.png";
+import induPhoto from "../../Assets/Indu.jpg";
 import samPhoto from "../../Assets/sam h.jpg";
 
 function People2() {
@@ -220,7 +221,46 @@ function People2() {
             />
           </Col>
         </Row>
-
+        <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+          >
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="https://lk.linkedin.com/in/indunil-dharmasiri-58a631156"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Indunil Dharmasiri
+              </a>{" "}
+              (she/her)
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            Research Associate at the Department of Sociology, Virginia Tech
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            Indunil earned her Master of Science in Geography from Virgina Tech in 2023. Her
+primary research areas encompass complex systems, Agent Based Modelling, climate
+change adaptation, entrepreneurship, and Indigenous studies. Her Masters’ research
+focused on exploring entrepreneurship-based factors to foster climate adaptation
+among Indigenous communities. She holds a Bachelors’ degree in Agricultural
+Technology and Management with a major in Applied Economics and Business
+Management from the University of Peradeniya, Sri Lanka.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img
+              src={induPhoto}
+              className="img-fluid team-pic"
+              alt="Indunil pic"
+            />
+          </Col>
+        </Row>
         <Row>
           <Col
             md={8}
