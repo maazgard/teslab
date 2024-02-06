@@ -29,7 +29,37 @@ function News() {
                 <br />
                 <ul>
                 <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 8/15/2023
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 2/6/2024
+                    Vij, S., Stock, R., Ishtiaque, A., Gardezi, M., & Zia, A.
+                    (2023). Power in climate change
+policy-making process in South Asia.{"Climate Policy"}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://doi.org/10.1080/14693062.2023.2271440"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                    </li>
+                  <li style={{ padding: "15px" }}>
+                    <span style={{ color: "red" }}>NEW PAPER!!</span> 2/6/2024
+                    Ishtiaque, A., Krupnik, T., Krishna, V. Uddin, M., Aryal, J., Srivastava, A., Kumar, S., Shahzad, M., Bhatt, R., Gardezi, M., Bahinipati., R., Nazu, S., Ghimire, R., Anik, R., Sapkota, T., Ghosh, M., Subedi, R., Sardar, Asif., Uddin, K.M., Khatri-Chhetri, A., Rahman, M., Singh, B., Jain, M. (2024).
+                    Overcoming barriers to climate smart agriculture in South Asia. {"Nature Climate Change"}
+                    <a
+                      className="bolditalicaccent"
+                      href="https://www.nature.com/articles/s41558-023-01905-z"
+                      style={{ position: "relative" }}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Link
+                    </a>{" "}
+                  </li>
+                  <li style={{ padding: "15px" }}>
                     Prutzer, E., Patrick, A., Ishtiaque, A., Vij, S., Stock, R., Gardezi, M.
                     (2023). Climate-smart irrigation and responsible innovation in South Asia: 
                     A systematic mapping.{" "}
@@ -43,9 +73,8 @@ function News() {
                       {" "}
                       Link
                     </a>{" "}
-                  </li>
+                    </li>
                 <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 8/15/2023
                     Brugler, S., Clay, S., Gardezi, M., Dadkhah, A., Rizzo, D., Zia, A.
                     (2023). Improving Decision Support Systems with Machine Learning:
                     Identifying Barriers to Adoption. Agronomy Journal{" "}
@@ -61,7 +90,6 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
                     Prutzer, E., Gardezi, M., Emery, M., Rizzo, D…Zia, A.
                     (2023). Rethinking ‘responsibility’ in precision
                     agriculture innovation: Lessons from an interdisciplinary
@@ -78,7 +106,6 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
                     Adereti, D.M., Gardezi, M., Wang, T., McMaine, J. (2023).
                     Understanding farmers’ engagement and barriers to machine
                     learning-based intelligent agricultural decision support
@@ -95,7 +122,6 @@ function News() {
                     </a>{" "}
                   </li>
                   <li style={{ padding: "15px" }}>
-                    <span style={{ color: "red" }}>NEW PAPER!!</span> 5/9/2023
                     Gardezi, M., Joshi, B., Rizzo, D. M., Ryan, M., Prutzer, E.,
                     Brugler, S., & Dadkhah, A. (2023). Artificial Intelligence
                     in Farming: Challenges and opportunities for building trust.
