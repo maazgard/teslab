@@ -30,10 +30,10 @@ function People1() {
               (he/him)
             </h2>
             <p className="home-about-body">
-              Assistant Professor of Sociology at Virginia Tech.
+              Associate Professor of Sociology at Virginia Tech.
               <br />
               <br />
-              <b className="bolditalicaccent">Maaz Gardezi</b> is an assistant
+              <b className="bolditalicaccent">Maaz Gardezi</b> is an associate
               professor of sociology at Virginia Tech. He studies two broad and
               interrelated topics: (1) Climate change and sustainability and (2)
               The social implications of emerging digital technologies (e.g. big
