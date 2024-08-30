@@ -8,6 +8,7 @@ import shreyaPhoto from "../../Assets/Shreya.jpg";
 import sheetalPhoto from "../../Assets/Sheetal.png";
 import induPhoto from "../../Assets/Indu.jpg";
 import samPhoto from "../../Assets/sam h.jpg";
+import Anne1 from "../../Assets/Anne1.jpg";
 
 function People2() {
   return (
@@ -226,7 +227,42 @@ function People2() {
             md={8}
             className="home-about-description"
             style={{ textAlign: "left" }}
-          >
+>
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="https://linkedin.com/in/anne-yu-ba5022187"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Xinjing Yu (Anne)
+              </a>{" "}
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            Graduate Research Associate at the Department of Sociology, Virginia Tech
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+            Anne is a PhD student whose primary research areas involve agriculture, sustainability, sociology of technology, and artificial intelligence.
+           She earned a Master’s degree in Social Justice Education from the University of Toronto, where her graduate research focused on technological advancements, particularly in digital learning, and the role of AI within higher education institutions.
+           Anne also holds an Honors Bachelor of Arts degree in Sociology Specialist from the University of Toronto.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img
+              src={Anne1}
+              className="img-fluid team-pic"
+              alt="Anne pic"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+>
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
