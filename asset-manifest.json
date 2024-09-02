@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teslab/static/css/main.0fc5d870.css",
-    "main.js": "/teslab/static/js/main.cbc1a170.js",
+    "main.js": "/teslab/static/js/main.d6ae1f9c.js",
     "static/js/496.46fd67c5.chunk.js": "/teslab/static/js/496.46fd67c5.chunk.js",
     "static/media/contact_map.png": "/teslab/static/media/contact_map.4bc98f3586444caa67f5.png",
     "static/media/Sheetal.png": "/teslab/static/media/Sheetal.a205227146213f410f21.png",
@@ -20,6 +20,7 @@
     "static/media/bhavna.jpg": "/teslab/static/media/bhavna.ddf5f90916652ab12cd9.jpg",
     "static/media/JanMichalak.jpg": "/teslab/static/media/JanMichalak.0dce60131f63f15b32a7.jpg",
     "static/media/research4.jpeg": "/teslab/static/media/research4.adc9ee62bb21869c90be.jpeg",
+    "static/media/atharva1.jpg": "/teslab/static/media/atharva1.c01cb57b7ee82b8f6aab.jpg",
     "static/media/Ayorinde.jpg": "/teslab/static/media/Ayorinde.eae8adc15a9b180a6127.jpg",
     "static/media/research1.jpg": "/teslab/static/media/research1.18072f7e6d948409cb1c.jpg",
     "static/media/Damilola.jpg": "/teslab/static/media/Damilola.2765c3add9a4d359aa40.jpg",
@@ -34,11 +35,11 @@
     "static/media/maaz.jpg": "/teslab/static/media/maaz.189c53bd5665683abce3.jpg",
     "index.html": "/teslab/index.html",
     "main.0fc5d870.css.map": "/teslab/static/css/main.0fc5d870.css.map",
-    "main.cbc1a170.js.map": "/teslab/static/js/main.cbc1a170.js.map",
+    "main.d6ae1f9c.js.map": "/teslab/static/js/main.d6ae1f9c.js.map",
     "496.46fd67c5.chunk.js.map": "/teslab/static/js/496.46fd67c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc5d870.css",
-    "static/js/main.cbc1a170.js"
+    "static/js/main.d6ae1f9c.js"
   ]
 }
