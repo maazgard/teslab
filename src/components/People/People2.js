@@ -6,8 +6,9 @@ import bhavna from "../../Assets/bhavna.jpg";
 import jitenderPhoto from "../../Assets/Jitender.png";
 import shreyaPhoto from "../../Assets/Shreya.jpg";
 import sheetalPhoto from "../../Assets/Sheetal.png";
-import samPhoto from "../../Assets/sam h.jpg";
+import atharvaPhoto from "../../Assets/atharva1.jpg";
 import Anne1 from "../../Assets/Anne1.jpg";
+
 
 function People2() {
   return (
@@ -266,28 +267,28 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/sam-hartmann/"
+                href="https://www.linkedin.com/in/atharva-salunke/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
               >
                 {" "}
-                Sam Hartmann 
+                Atharva Salunke 
               </a>{" "}
               (he/him)
             </h2>
             <p className="home-about-body" style={{ padding: "0px" }}>
-              Undergraduate student majoring in Computational Modeling and Data Analytics (CMDA) at Virginia Tech
+              MS Candidate in Computer Engineering at Virginia Tech
             </p>
             <p className="home-about-body" style={{ padding: "0px" }}>
-            My name is Sam Hartmann. I'm a senior majoring in CMDA (Computational and Modeling Data Analytics)  with a concentration in cryptography and cybersecurity and minoring in Math and Computer Science.
+            I am Atharva Salunke, and I am pursuing an MS in Computer Engineering at Virginia Tech, Blacksburg. I completed my undergraduate degree in ECE from the University of Mumbai. I have three years of experience as a Big Data Engineer at a U.S.-based bank, where I worked on Data Warehousing ETL and software development in the equities domain. Currently, I am involved in designing a Decision Support System (DSS) for precision agriculture. My interests lie in the application of data-driven solutions in machine learning. 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <img
-              src={samPhoto}
+              src={atharvaPhoto}
               className="img-fluid team-pic"
-              alt="Sam Hartmann pic"
+              alt="Atharva pic"
             />
           </Col>
         </Row>
